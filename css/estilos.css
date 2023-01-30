@@ -1,0 +1,93 @@
+* {
+    margin: opx;
+}
+
+h1 {
+    font: bold 20px verdana, sans-serif;
+}
+
+h2 {
+    font: bold 14px verdana, sans-serif;
+}
+
+
+header,
+section,
+footer,
+aside,
+article {
+    display: block;
+}
+
+body {
+    text-align: center;
+}
+
+#agrupar {
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+    background-color: rgb(156, 236, 199);
+}
+
+#cabecera {
+    background: yellowgreen;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+}
+
+#columna {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: #CCCCCC;
+}
+
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid gray;
+}
+
+article {
+    background: bisque;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: left;
+}
+
+time {
+    color: gray;
+}
+
+.leerMas_btn {
+    background-color: green;
+    border: 1px solid;
+    border-radius: 20px;
+    color: white;
+    padding: 10px auto;
+    font: optional;
+    box-shadow: 5px 0px #4caf50;
+    cursor: pointer;
+}
+
+
+.hide {
+    display: none;
+}
+
+.showText {
+    display: block;
+}
